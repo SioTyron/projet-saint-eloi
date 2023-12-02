@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <!--Chargement des polices d'écritures-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <entente> <!--Balise pour le bandeau-->
+            <div class="entete"><!--Logo + Titre-->
+                <img src="logo2.png" alt="Logo Jardin St-Eloi" style="    
+                width: 100px;
+                height: 100px;
+                float: center;
+                border-radius: 50%;">
+                <h2>Les Jardins Saint-Eloi</h2>
+                    <div class="btn-group btn-group-lg">
+                        <button type="button" class="btnbtn-second"><a href="index.html" style="text-decoration: none;">🏠Accueil</a></button>
+                        <button type="button" class="btnbtn-second"><a href="fleurs.html" style="text-decoration: none;">🌼Fleurs</a></button>
+                        <button type="button" class="btnbtn-second"><a href="cadeaux.html" style="text-decoration: none;">🎁Idées Cadeaux</a></button>
+                        <button type="button" class="btnbtn-second"><a href="cdv.html " style="text-decoration: none;">📑Conditions de vente</a></button>
+                        <button type="button" class="btnbtn-second"><a href="contact.html" style="text-decoration: none;">📞Contact</a></button>
+                    </div>
+            </div>
+        </entente>
+        <main>
+        <!--Corps de la page-->
+            <form action="/ma-page-de-traitement" method="post">
+            <ul>
+                <li>
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                <label for="firstname">Prénom&nbsp;:</label>
+                <input type="text" id="firstname" name="user_firstname"/>
+                </li>
+                <li>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li>
+                    <button type="button" class="btnbtn-second"><a href="" style="text-decoration: none;">➤Envoyer</a></button>
+                </li>
+            </ul>
+            </form>
+        </main>
+        <footer>
+            <!--Intégration du bandeau des mentions légales en bas de page-->
+            Jardins Saint-Eloi®  2024 <br>
+            Tous droits réservés <br>
+            Guadeloupe - Capesterre-Belle-Eau - 97130
+        </footer>
+    </body>
+</html>
